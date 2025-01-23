@@ -158,7 +158,7 @@ checkoutBtn.addEventListener("click", function(){
             position: "right", // "left", "center" or "right"
             stopOnFocus: true, // impede a dispensa da mensagem ao passar o mouse
             style:{
-                background: "#EF4444"
+                background: "##0056a3"
             },
         }).showToast();
 
