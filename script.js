@@ -158,7 +158,7 @@ checkoutBtn.addEventListener("click", function(){
             position: "right", // "left", "center" or "right"
             stopOnFocus: true, // impede a dispensa da mensagem ao passar o mouse
             style:{
-                background: "##0056a3"
+                background: "#EF4444"
             },
         }).showToast();
 
@@ -185,7 +185,7 @@ checkoutBtn.addEventListener("click", function(){
     }).join("");
 
     const message = encodeURIComponent(cartItems);
-    const phone = "11984343435";
+    const phone = "5511984343435";
 
     window.open(`https://wa.me/${phone}?text=${message} Endereço: ${addressInput.value}`, "_blank");
 
